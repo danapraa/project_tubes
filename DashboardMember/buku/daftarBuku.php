@@ -17,6 +17,7 @@ if(isset($_POST["search"]) ) {
 if(isset($_POST["informatika"]) ) {
 $buku = queryReadData("SELECT * FROM buku WHERE kategori = 'informatika'");
 }
+//halo
 //read buku bisnis
 if(isset($_POST["bisnis"]) ) {
 $buku = queryReadData("SELECT * FROM buku WHERE kategori = 'bisnis'");
